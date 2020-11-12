@@ -5,10 +5,14 @@
   "userimg": "https://avatars2.githubusercontent.com/u/39830028?v=4",
   "sort": "star",
   "order": "desc",
-  "includeFork": false,
-  "theme": "light.css",
+  "includeFork": true,
+  "theme": "dark.css",
   "types": [
-   "all"
-  ]
+   "owner"
+  ],
+  "twitter": null,
+  "linkedin": null,
+  "medium": null,
+  "dribbble": null
  }
 ]
