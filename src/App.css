@@ -1,6 +1,7 @@
 :root {
     --font-color: #fff;
     --primary-color: #e20000;
+    --progress-bar-fill: var(--primary-color);
 }
 
 .App {
@@ -12,8 +13,45 @@
     color: #e20000;
 }
 
+.row {
+    display: flex;
+}
+
+.image-col {
+    width: 30%;
+}
+
+.text-col {
+    width: 70%;
+    margin-left: 10px;
+}
+
+.progress-bar.progress-bar-show-percent {
+    margin-top: 0px !important;
+}
+
+.progress-bar.progress-bar-no-arrow {
+    margin-top: 0px !important;
+}
+
 @media screen and (max-width:768px){
     .terminal-menu{
         display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .row {
+        display: block;
+    }
+
+    .image-col {
+        width: 100%;
+    }
+
+    .text-col {
+        width: 100%;
+        margin-left: unset;
+        margin-top: 20px;
     }
 }
