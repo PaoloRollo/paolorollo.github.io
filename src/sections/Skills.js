@@ -105,16 +105,16 @@ const Skills = () => {
             {
                 skills.map((skill, i) => {
                     return (
-                        <div style={{borderBottom: `${i === skills.length - 1 ? "" : '1px dashed white'}`, marginBottom: 20}}>
+                        <div key={i} style={{borderBottom: `${i === skills.length - 1 ? "" : '1px dashed white'}`, marginBottom: 20}}>
                             <h2>{skill.name}</h2>
                             { skill.data.map((item, j) => {
                                 return (
-                                    <>
+                                    <div key={j + 100}>
                                     <p style={{marginBottom: 0, marginTop: 25}}>{item.name}{item.extra ? <span style={{float: 'right'}}>{item.extra}</span> : <></>}</p>
                                     <div className={`progress-bar ${item.name === 'php' ? "progress-bar-no-arrow" : "progress-bar-show-percent"}`}>
                                         <div className="progress-bar-filled" style={{width: item.percentage}} data-filled={item.name !== 'php' ? item.percentage : ''}></div>
                                     </div>
-                                    </>
+                                    </div>
                                 )
                             })}
                             <br/>

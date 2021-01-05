@@ -25,10 +25,10 @@ const jobs = [
 
 const JobsTimeline = () => {
     return (
-        <div class="terminal-timeline">
+        <div className="terminal-timeline">
             { jobs.map((job, i) => {
                 return (
-                    <div class="terminal-card">
+                    <div className="terminal-card" key={i}>
                         <header>{job.title}</header>
                         <div>
                             {job.description}

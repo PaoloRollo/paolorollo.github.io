@@ -1,3 +1,3 @@
 export default {
-    loremIpsum: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nisi lacus, posuere non commodo sed, semper in enim. Ut dolor erat, semper et quam elementum, semper vehicula orci. Morbi id massa imperdiet, bibendum eros eget, rhoncus mauris. Fusce eget quam sagittis, molestie dolor vitae, commodo magna. Nullam malesuada, nisl id gravida convallis, enim ex dignissim mauris, sit amet malesuada nibh lectus at orci. Proin vehicula sed diam ut condimentum. Suspendisse sollicitudin gravida molestie. Phasellus quis porttitor ligula. Vestibulum at purus facilisis, lobortis felis quis, sollicitudin orci. Donec at orci vel ligula tincidunt mollis. Praesent nunc justo, commodo id quam at, imperdiet varius justo. Nam lobortis malesuada leo nec vulputate."
+    loremIpsum: "Work in progress."
 }
